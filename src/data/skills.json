@@ -1,0 +1,63 @@
+{
+    "frontend":[
+        {
+            "id": "1",
+            "link": "../../assets/html5.svg",
+            "title": "HTML5"
+        },
+        {
+            "id": "2",
+            "link": "../../assets/css3.svg",
+            "title": "CSS3"
+        },
+        {
+            "id": "3",
+            "link": "../../assets/javascript.svg",
+            "title": "Javascript"
+        },
+        {
+            "id": "4",
+            "link": "../../assets/reactjs.svg",
+            "title": "React"
+        }
+    ],
+    "backend":[
+        {
+            "id": "1",
+            "link": "../../assets/nodejs.svg",
+            "title": "Nodejs"
+        },
+        {
+            "id": "2",
+            "link": "../../assets/mongodb.svg",
+            "title": "MongoDB"
+        }
+    ],
+    "tools":[
+        {
+            "id": "1",
+            "link": "../../assets/visualstudio.svg",
+            "title": "Visual Studio"
+        },
+        {
+            "id": "2",
+            "link": "../../assets/sass.svg",
+            "title": "Sass"
+        },
+        {
+            "id": "3",
+            "link": "../../assets/postman.svg",
+            "title": "Postman"
+        },
+        {
+            "id": "4",
+            "link": "../../assets/github.svg",
+            "title": "Github"
+        },
+        {
+            "id": "5",
+            "link": "../../assets/git.svg",
+            "title": "Git"
+        }
+    ]
+}
