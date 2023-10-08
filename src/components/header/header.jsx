@@ -1,4 +1,4 @@
-import image from "../../assets/bars-solid.svg"
+import image from "../../assets/menu-bar.svg"
 import Menu from "../menu/menu"
 import { useState } from "react"
 import "./header.scss"

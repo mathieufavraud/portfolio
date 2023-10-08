@@ -1,4 +1,4 @@
-import image from "../../assets/github-mark.svg"
+import image from "../../assets/github.svg"
 
 const intro = () => {
     return (
