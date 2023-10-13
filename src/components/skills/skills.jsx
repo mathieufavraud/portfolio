@@ -1,6 +1,8 @@
+import "./skills.scss"
+
 const skills = () => {
     return (
-        <section id="skills">
+        <section id="skills" className="section_title_left">
             <h1>Détail des compétences et outils</h1>
             <div>
             <h2>Compétences en développement web</h2>

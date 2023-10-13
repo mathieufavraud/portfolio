@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+#about {
+    padding: 30px;
+    margin-top: 50px;
+    text-align: end;
+    a {
+        color: $links_light-blue;
+    }
+}

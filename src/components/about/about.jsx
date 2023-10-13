@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import "./about.scss"
 
 const about = () => {
     return (
-        <section id="about">
+        <section id="about" className="section_title_right">
             <h1>A propos de moi</h1>
             <p>Je suis un developpeur debutant de 35 ans avec une longue experience dans le domaine de la relation utilisateur.</p>
             <p>Une carrière dans le support informatique et ma passion pour tout les aspects techniques de mon metier m&apos;ont conduit à m&apos;interesser au domaine du developpement web.</p>

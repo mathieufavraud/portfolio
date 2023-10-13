@@ -4,6 +4,7 @@ import Main from './pages/main/main.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import CV from './pages/CV/cv.jsx'
 import Error from './pages/404/404.jsx'
+import './styles/main.scss'
 
 const router = createBrowserRouter([
   {
@@ -28,3 +29,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 // verifier fonctionnement des routes
+//ajouter react-icons

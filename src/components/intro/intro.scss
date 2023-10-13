@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+#intro {
+    padding: 30px;
+    margin-top: 50px;
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        a {
+            color: $links_light-blue;
+        }
+    }
+}

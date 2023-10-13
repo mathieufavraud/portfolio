@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+
+#contact {
+    padding: 30px;
+    margin-top: 50px;
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        input{
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        button {
+            border-radius: 50%;
+            border: 1px solid $links_light-blue;
+            padding: 20px; 
+            width: 200px;
+            height: 15px;
+        }
+    }
+}
+

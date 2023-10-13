@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        a {
+            color: $links_light-blue;
+        }
+    }
+}

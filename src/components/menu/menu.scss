@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    a {
+        color: $links_light-blue;
+        text-decoration: underline;
+    };
+}
