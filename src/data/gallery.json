@@ -1,4 +1,5 @@
 {
+    "tags": ["Frontend","Backend","HTML&CSS","NodeJS","Javascript","React"],
     "gallery": [
         {
             "id": "1",
@@ -12,28 +13,28 @@
             "title": "Sophie Bluel",
             "link": "lien github",
             "description":"Site de Sophie Bluel, architecte d'interieur. Introduction a la création de contenu dynamique avec du javascript",
-            "tags": ["Frontend","HTML&CSS", "javascript"]
+            "tags": ["Frontend","HTML&CSS","Javascript"]
         },
         {
             "id": "3",
             "title": "Nina Carducci",
             "link": "lien github",
             "description":"Site de la photographe Nina Carducci. Debug et optimisation du code d'un projet deja existant.",
-            "tags": ["Frontend","HTML&CSS","debug", "javascript"]
+            "tags": ["Frontend","HTML&CSS","Debug", "Javascript"]
         },
         {
             "id": "4",
             "title": "Kasa",
             "link": "lien github",
             "description":"Site de location immobilière Kasa. Réalisation d'une application web en utilisant React",
-            "tags": ["Frontend","javascript","HTML&CSS","React"]
+            "tags": ["Frontend","Javascript","HTML&CSS","React"]
         },
         {
             "id": "5",
             "title": "Mon vieux Grimoire",
             "link": "lien github",
             "description":"Mon vieux Grimoire, site de notation de livres. Création de la partie backend d'un projet React existant",
-            "tags": ["Backend","javascript","nodejs"]
+            "tags": ["Backend","Javascript","NodeJS"]
         }
     ]
 }

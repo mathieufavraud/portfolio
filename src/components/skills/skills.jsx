@@ -1,8 +1,44 @@
 import "./skills.scss"
+import Element from "../item/item.jsx"
+import data from "../../data/skills.json"
 
 const skills = () => {
     return (
         <section id="skills" className="section_title_left">
+            <h1>Détail des compétences et outils</h1>
+            <div>
+                <h2>Compétences en développement web</h2>
+                <div className="skills">
+                    <section className="frontend">
+                        <h3>Frontend</h3>
+                        <div className="frontend">
+                            {data.frontend.map((item) => {return (<Element key={item.id} title={item.title} link={item.link}/>)})}
+                        </div>
+                    </section>
+                    <section className="backend">
+                        <h3>Backend</h3>
+                        <div className="backend">
+                            {data.backend.map((item) => {return (<Element key={item.id} title={item.title} link={item.link}/>)})}
+                        </div>
+                    </section>
+                </div>
+                <div className="tools">
+                    <section>
+                        <h2>Outils de développement</h2>
+                        <div>
+                            {data.tools.map((item) => {return(<Element key={item.id} title={item.title} link={item.link}/>)})}
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default skills;
+
+//{data.frontend.map((item) => {<Element key={item.id} title={item.title} link={item.link}/>})}
+/*
             <h1>Détail des compétences et outils</h1>
             <div>
             <h2>Compétences en développement web</h2>
@@ -33,8 +69,4 @@ const skills = () => {
                 <li>Sass</li>
             </ul>
             </div>
-        </section>
-    );
-};
-
-export default skills;
+*/

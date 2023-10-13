@@ -1,4 +1,8 @@
 #skills {
     margin-top: 50px;
     padding: 30px;
+    .skills {
+        display: flex;
+        justify-content: space-around;
+    }
 }
