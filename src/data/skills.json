@@ -2,61 +2,61 @@
     "frontend":[
         {
             "id": "1",
-            "link": "../../assets/html5.svg",
+            "link": "../../../public/html5.svg",
             "title": "HTML5"
         },
         {
             "id": "2",
-            "link": "../../assets/css3.svg",
+            "link": "../../../public/css3.svg",
             "title": "CSS3"
         },
         {
             "id": "3",
-            "link": "../../assets/javascript.svg",
+            "link": "../../../public/javascript.svg",
             "title": "Javascript"
         },
         {
             "id": "4",
-            "link": "../../assets/reactjs.svg",
+            "link": "../../../public/reactjs.svg",
             "title": "React"
         }
     ],
     "backend":[
         {
             "id": "1",
-            "link": "../../assets/nodejs.svg",
+            "link": "../../../public/nodejs.svg",
             "title": "Nodejs"
         },
         {
             "id": "2",
-            "link": "../../assets/mongodb.svg",
+            "link": "../../../public/mongodb.svg",
             "title": "MongoDB"
         }
     ],
     "tools":[
         {
             "id": "1",
-            "link": "../../assets/visualstudio.svg",
+            "link": "../../../public/visualstudio.svg",
             "title": "Visual Studio"
         },
         {
             "id": "2",
-            "link": "../../assets/sass.svg",
+            "link": "../../../public/sass.svg",
             "title": "Sass"
         },
         {
             "id": "3",
-            "link": "../../assets/postman.svg",
+            "link": "../../../public/postman.svg",
             "title": "Postman"
         },
         {
             "id": "4",
-            "link": "../../assets/github.svg",
+            "link": "../../../public/github.svg",
             "title": "Github"
         },
         {
             "id": "5",
-            "link": "../../assets/git.svg",
+            "link": "../../../public/git.svg",
             "title": "Git"
         }
     ]

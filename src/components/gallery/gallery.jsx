@@ -17,5 +17,3 @@ const gallery = () => {
 };
 
 export default gallery;
-
-//{data.map((item) => {return (<Card key={item.id} title={item.title} link={item.link} description={item.description} tags={item.tags}/>)})}
