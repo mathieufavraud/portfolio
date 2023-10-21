@@ -1,3 +1,58 @@
+@import "../../styles/variables.scss";
+
+@mixin on-circle($item-count, $circle-size, $item-size) {
+    position: relative;
+    width:  $circle-size;
+    height: $circle-size;
+    padding: 0;
+    border-radius: 50%; 
+    list-style: none;       
+    
+    > * {
+      display: block;
+      position: absolute;
+      top:  50%; 
+      left: 50%;
+      width:  $item-size;
+      height: $item-size;
+      margin: -(calc($item-size / 2));
+    
+      $angle: (calc(360 / $item-count));
+      $rot: 0;
+  
+      @for $i from 1 through $item-count {
+        &:nth-of-type(#{$i}) {
+          transform: 
+            rotate($rot * 1deg) 
+            translate(calc($circle-size / 2)) 
+            rotate($rot * -1deg);
+        }
+  
+        $rot: $rot + $angle;
+      }
+    }
+  }
+
+@mixin circle-content {
+    border: solid 5px $links_light-blue;
+    margin: 100px;
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $background_paynes-gray;
+        border-radius: 50%;
+        transition: all .2s ease-in-out;
+        img {
+            min-width: 150px;
+            min-height: 150px;
+        }
+        :hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
 #skills {
     margin-top: 50px;
     padding: 30px;
@@ -6,3 +61,20 @@
         justify-content: space-around;
     }
 }
+
+.frontend-container {
+    @include on-circle($item-count: 4, $circle-size: 400px, $item-size: 200px); 
+    @include circle-content;
+}
+
+.backend-container {
+    @include on-circle($item-count: 3, $circle-size: 400px, $item-size: 200px); 
+    @include circle-content;
+}
+
+.tools-container {
+    @include on-circle($item-count: 5, $circle-size: 400px, $item-size: 200px); 
+    @include circle-content;
+  }
+
+//hover sur la <figure> ??

@@ -10,7 +10,7 @@ const gallery = () => {
                 {data.tags.map((item) => {return(<button key={item}>{item}</button>)})}
             </div>
             <div className="cards">
-                {data.gallery.map((item) => {return (<Card key={item.id} title={item.title} link={item.link} description={item.description} tags={item.tags}/>)})}
+                {data.gallery.map((item) => {return (<Card key={item.id} title={item.title} link={item.link} description={item.description} thumbnail={item.thumbnail} tags={item.tags}/>)})}
             </div>
         </section>
     );

@@ -13,7 +13,7 @@
             "id": "2",
             "title": "Sophie Bluel",
             "link": "https://mathieufavraud.github.io/sophie_bluel/",
-            "thumbnail": "blabla",
+            "thumbnail": "../../../public/sophie_bluel.jpg",
             "description":"Site de Sophie Bluel, architecte d'interieur. Introduction a la création de contenu dynamique avec du javascript",
             "tags": ["Frontend","HTML&CSS","Javascript"]
         },
@@ -36,8 +36,8 @@
         {
             "id": "5",
             "title": "Mon vieux Grimoire",
-            "link": "lien github",
-            "thumbnail": "blabla",
+            "link": "lien github qui marche pas",
+            "thumbnail": "../../../public/test.jpg",
             "description":"Mon vieux Grimoire, site de notation de livres. Création de la partie backend d'un projet React existant",
             "tags": ["Backend","Javascript","NodeJS"]
         }

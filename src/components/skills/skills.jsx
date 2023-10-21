@@ -11,13 +11,13 @@ const skills = () => {
                 <div className="skills">
                     <section className="frontend">
                         <h3>Frontend</h3>
-                        <div className="frontend">
+                        <div className="frontend-container">
                             {data.frontend.map((item) => {return (<Element key={item.id} title={item.title} link={item.link}/>)})}
                         </div>
                     </section>
                     <section className="backend">
                         <h3>Backend</h3>
-                        <div className="backend">
+                        <div className="backend-container">
                             {data.backend.map((item) => {return (<Element key={item.id} title={item.title} link={item.link}/>)})}
                         </div>
                     </section>
@@ -25,7 +25,7 @@ const skills = () => {
                 <div className="tools">
                     <section>
                         <h2>Outils de développement</h2>
-                        <div>
+                        <div className="tools-container">
                             {data.tools.map((item) => {return(<Element key={item.id} title={item.title} link={item.link}/>)})}
                         </div>
                     </section>
