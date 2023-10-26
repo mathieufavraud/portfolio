@@ -1,19 +1,16 @@
 .header {
-    font-size: 25px;
+    position: sticky;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     div {
-        button {
-            height: 400px;
-            width: 200px;
-            background-color: transparent;
-            border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        h1 {
+            font-size: 60px;
         }
-    }
-    h1 {
-        padding: 10px;
     }
 }

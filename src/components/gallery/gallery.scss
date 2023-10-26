@@ -12,12 +12,20 @@
         padding: 20px;
         border-radius: 20px;
         cursor: pointer;
-        background-color: $background_black;
-        background-image: linear-gradient(180deg, $background_black 0%, $background_charcoal 46%, $background_paynes-gray 100%);
+        @include gradient;
+        @include shadow;
         border: 1px solid $links_light-blue;
-        color: $text_ghost-white;
+        //color: $text_ghost-white;
+    }
+    .active {
+        color: red;
+    }
+    .inactive {
+        color: blue
     }
 }
+
+p {color: white;}
 
 .cards {
     margin-top: 30px;

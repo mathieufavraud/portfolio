@@ -1,19 +1,16 @@
 import Menu from "../menu/menu"
-import image from "../../assets/menu-bar.svg"
-import { useState } from "react"
 import "./header.scss"
 
 const Header = () => {
-    const [state, setState] = useState(true);
+
 
     return(
     <div className="header main-title">
+        <Menu></Menu>
         <div>
-            <button onClick={() => setState(!state)}>
-                {state ? <img src={image} alt="menu" /> : <Menu></Menu>}
-            </button>
+            <h1>Portfolio de développeur web</h1>
+            <img src="" alt="logo perso" />
         </div>
-        <h1>Portfolio de developpeur web</h1>
     </div>
     );
 }

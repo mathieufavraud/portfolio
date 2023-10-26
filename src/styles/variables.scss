@@ -13,3 +13,9 @@ $text_ghost-white: #f4f4f9ff;
   58.5px 33.8px 51.8px rgba(0, 0, 0, 0.122),
   140px 81px 124px rgba(0, 0, 0, 0.17);
 }
+
+@mixin gradient {
+  background-color: $background_black;
+  background-image: linear-gradient(90deg, $background_black 0%, $background_charcoal 46%, $background_paynes-gray 100%);
+  color: $text_ghost-white;
+}

@@ -4,14 +4,14 @@ import "./card.scss"
 
 const card = (props) => {
     const css = {backgroundImage: `url(${props.thumbnail})`};
-    const [rotation, rotate] = useState(true);
+    const [rotation, Rotate] = useState(true);
     return (
         <div className="card">
             <div className="card-content">
             {rotation ? 
             <div className="front" style={css}>
                 <h2>{props.title}</h2>
-                <button onClick={() => rotate(!rotation)}><MdFlipCameraAndroid /></button>
+                <button onClick={() => Rotate(!rotation)}><MdFlipCameraAndroid /></button>
             </div> : 
             <div className="back">
                 <div className="back-content">
@@ -21,7 +21,7 @@ const card = (props) => {
                     </div>
                     <a href={props.link}>{props.title}</a>
                 </div>
-                <button onClick={() => rotate(!rotation)}><MdFlipCameraAndroid /></button>
+                <button onClick={() => Rotate(!rotation)}><MdFlipCameraAndroid /></button>
             </div>
             }
             </div>
