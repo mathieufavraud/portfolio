@@ -19,3 +19,17 @@ $text_ghost-white: #f4f4f9ff;
   background-image: linear-gradient(90deg, $background_black 0%, $background_charcoal 46%, $background_paynes-gray 100%);
   color: $text_ghost-white;
 }
+
+$h1_title: 3.5vw;
+$h2_title: 4vh;
+$h3_title: 3vh;
+$h4_title: 2.2vh;
+$p_text: 1.8vh;
+$a_text: 2vh;
+
+@mixin margin {
+  margin-top: 10vh;
+}
+
+//refaire l'ombre ?
+//changer vh pour vw ?

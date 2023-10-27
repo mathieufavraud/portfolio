@@ -7,40 +7,37 @@ div {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 30px;
-            border-radius: 50%;
+            padding: 3vh;
+            margin: 1vh;
+            border-radius: 30px;
             border-style: none;
+            font-size: $a_text;
         }
     }
     
-    .links {
-        div {
-            display: flex;
-        }
+    .header &.links {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
-        font-size: 20px;
+        gap: 1vh;
+        border: 2px solid $background_charcoal;
+        border-radius: 30px;
+        padding: 1vh;
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         a {
             color: $links_light-blue;
             text-decoration: underline;
         };
     }
     
-    .hidden {
+    .header &.hidden {
         display: none;
     }
 }
 
-
-/*
-div {
-        button {
-            height: 400px;
-            width: 200px;
-            background-color: transparent;
-            border: none;
-        }
-    }
-*/
+//ajouter une animation

@@ -8,6 +8,34 @@ body{
     font-weight: 500;
     a {
         text-decoration: none;
+        font-size: $a_text;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    p {
+        font-size: $p_text;
+    }
+    h1 {
+        font-size: $h1_title;
+    }
+    h2 {
+        font-size: $h2_title;
+    }
+    h3 {
+        font-size: $h3_title;
+    }
+    h4 {
+        font-size: $h4_title;
+        font-style: italic;
+        margin: 1.5vh;
+    }
+    button {
+        box-shadow: 10px 5px 5px $background_black;
+        &:active
+        {
+            box-shadow: 5px 1px 2px $background_black;
+        }   
     }
     background-image: url("../assets/cool-background.jpg");
     background-size: cover;
@@ -51,6 +79,3 @@ body{
 .links {
     color: $links_light-blue;
 }
-
-//affichage des ombres ?
-//utilisation des opacity pour les divs

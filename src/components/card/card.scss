@@ -49,6 +49,7 @@
             transform: rotateY( 180deg );
             .back-content {
                 padding: 30px;
+                transform: rotateY( 180deg );
                 a {
                     color: $links_light-blue;
                 }
@@ -57,5 +58,4 @@
     }
 }
 
-
-//ramener les images vers le haut ?
+//rajouter un fondu sur l'apparition du contenu des cartes

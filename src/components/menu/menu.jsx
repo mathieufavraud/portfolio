@@ -7,13 +7,13 @@ const menu = () => {
     const [toggle, setToggle] = useState(true);
     return (
         <div>
-            <div className={toggle ? "menu" : "hidden"}>
+            <div id="menu" className={toggle ? "menu" : "hidden"}>
                 <button onClick={() => setToggle(false)}>
                     <FiMenu></FiMenu>
                     <h3>Menu</h3>
                 </button>
             </div>
-            <div className={toggle ? "hidden" : "links"}>
+            <div id="links" className={toggle ? "hidden" : "links"}>
                 <div>
                     <h3>Menu</h3>
                     <button onClick={() => setToggle(true)}><AiOutlineClose /></button>

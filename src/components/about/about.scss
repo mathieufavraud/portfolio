@@ -1,11 +1,8 @@
 @import "../../styles/variables.scss";
 
 #about {
-    h2 {
-        font-size: 30px;
-    }
-    padding: 30px;
-    margin-top: 50px;
+    padding: 4vh;
+    @include margin;
     text-align: end;
     a {
         color: $links_light-blue;

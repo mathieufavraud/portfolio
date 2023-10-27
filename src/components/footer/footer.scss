@@ -1,10 +1,21 @@
 @import "../../styles/variables.scss";
 
 .footer {
+    padding: 1vh;
+    @include margin;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin-top: 50px;
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .italic {
+            font-style: italic;
+        }
+        img {
+            padding: 3vh;
+        }
+    }
     .contact-info {
         display: flex;
         flex-direction: column;

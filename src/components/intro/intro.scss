@@ -1,13 +1,9 @@
 @import "../../styles/variables.scss";
 
 #intro {
-    padding: 30px;
-    margin-top: 50px;
-    h2 {
-        font-size: 30px;
-    }
+    padding: 4vh;
+    @include margin;
     h3 {
-        font-size: 25px;
         font-style: italic;
     }
     div {

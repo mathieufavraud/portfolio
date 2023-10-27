@@ -1,18 +1,24 @@
 import "./footer.scss"
-import { FaCopyright } from "react-icons/fa"
+import { FaRegCopyright } from "react-icons/fa"
+import { BsTelephoneFill } from "react-icons/bs"
+import { AiFillMail } from "react-icons/ai"
+import { BsLinkedin } from "react-icons/bs"
 
 const Footer = () => {
     return(<div className="footer">
-        <section className="legal">
-            <h3>Mentions légales</h3>
-            <p>Ce site a été entièrement realisé par moi même avec React</p>
-            <p>Copyright <FaCopyright/> &quot;moi même&quot; 2023 </p>
-        </section>
+        <div>
+            <img src="" alt="logo perso" />
+            <section className="legal">
+                <h4>Mentions légales</h4>
+                <p>Ce site a été entièrement realisé par moi même avec React</p>
+                <p className="italic">Copyright <FaRegCopyright /> &quot;moi même&quot; 2023 </p>
+            </section>
+        </div>
         <section className="contact-info">
-            <h3>Contact :</h3>
-            <a href="tel:+33600000000">Tel : 06.52.50.06.77</a>
-            <a href="mailto:mathieu.favraud@gmail.com">mathieu.favraud@gmail.com</a>
-            <a href="https://www.linkedin.com/in/mathieu-favraud-20244a127/">Mon Linkedin</a>
+            <h4>Contact :</h4>
+            <a href="tel:+33600000000"><BsTelephoneFill /> Tel : 06.52.50.06.77</a>
+            <a href="mailto:mathieu.favraud@gmail.com"><AiFillMail /> mathieu.favraud@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mathieu-favraud-20244a127/"><BsLinkedin /> Mon Linkedin</a>
         </section>
     </div>);
 }
