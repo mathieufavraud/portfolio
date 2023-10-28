@@ -1,4 +1,4 @@
-import { MdFlipCameraAndroid } from "react-icons/md"
+import { BsArrowCounterclockwise } from "react-icons/bs"
 import { useState } from "react";
 import "./card.scss"
 
@@ -9,11 +9,10 @@ const card = (props) => {
         <div className="card">
             <div className="card-content">
             {rotation ? 
-            <div className="front" style={css}>
-                <h2>{props.title}</h2>
-                <button onClick={() => Rotate(!rotation)}><MdFlipCameraAndroid /></button>
+            <div className="front" style={css} onClick={() => Rotate(!rotation)}>
+                <h2>{props.title} < BsArrowCounterclockwise/></h2>
             </div> : 
-            <div className="back">
+            <div className="back" onClick={() => Rotate(!rotation)}>
                 <div className="back-content">
                     <p>{props.description}</p>
                     <div className="tags">
@@ -21,7 +20,6 @@ const card = (props) => {
                     </div>
                     <a href={props.link}>{props.title}</a>
                 </div>
-                <button onClick={() => Rotate(!rotation)}><MdFlipCameraAndroid /></button>
             </div>
             }
             </div>

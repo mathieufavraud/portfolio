@@ -3,24 +3,25 @@
 #gallery {
     @include margin;
     margin-left: 2vw;
+    padding: 1vw;
 }
 
 .buttons {
     display: flex;
-    gap: 60px;
+    gap: 6vh;
     button {
-        padding: 20px;
-        border-radius: 20px;
+        padding: 2vh;
+        border-radius: 30px;
+        font-size: $a_text;
         cursor: pointer;
-        @include gradient;
-        @include shadow;
-        border: 1px solid $links_light-blue;
+        border: 1px solid $background_paynes-gray;
     }
     .active {
-        color: red;
+        border: 3px solid $background_paynes-gray;
+        background-color: $links_light-blue;
     }
     .inactive {
-        color: blue
+        border: 1px solid $background_paynes-gray;
     }
 }
 
@@ -29,8 +30,8 @@ p {
 }
 
 .cards {
-    margin-top: 30px;
-    gap: 30px;
+    margin-top: 6vh;
+    gap: 6vh;
     display: flex;
     flex-wrap: wrap;
 }

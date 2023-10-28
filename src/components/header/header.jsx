@@ -6,13 +6,16 @@ const Header = () => {
 
     return(
     <div className="header main-title">
-        <Menu></Menu>
+        <img src="" alt="logo perso" />
         <div>
             <h1>Portfolio de développeur web</h1>
-            <img src="" alt="logo perso" />
+            <Menu></Menu>
         </div>
     </div>
     );
 }
 
 export default Header
+
+//inverser position logo et boutons ?
+//menu dans un lien qui renvoi a l'accueil

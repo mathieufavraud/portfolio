@@ -63,6 +63,7 @@
     }
     .skills {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         section {
           display: flex;
@@ -91,7 +92,7 @@
 }
 
 .tools-container {
-    @include on-circle($item-count: 5, $circle-size: 400px, $item-size: 200px); 
+    @include on-circle($item-count: 5, $circle-size: 550px, $item-size: 225px); 
     @include circle-content;
   }
 

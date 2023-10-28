@@ -10,7 +10,6 @@ const menu = () => {
             <div id="menu" className={toggle ? "menu" : "hidden"}>
                 <button onClick={() => setToggle(false)}>
                     <FiMenu></FiMenu>
-                    <h3>Menu</h3>
                 </button>
             </div>
             <div id="links" className={toggle ? "hidden" : "links"}>
@@ -28,3 +27,5 @@ const menu = () => {
     );
 }
 export default menu;
+
+//<h3>Menu</h3> dans le bouton ?

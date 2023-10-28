@@ -6,7 +6,7 @@ import data from "../../data/gallery.json"
 const gallery = () => {
     const [filter, setFilter] = useState("Tous");
     return (
-        <section id="gallery">
+        <section id="gallery" className="section_title_right">
             <h1>Mes travaux</h1>
             <div className="buttons">
                 {data.tags.map((item) => {return(<button key={item} className={item==filter ? "active" : "inactive" } onClick={() => setFilter(item)}>{item}</button>)})}

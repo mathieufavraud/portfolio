@@ -3,7 +3,7 @@ import {BsFillSendFill} from "react-icons/bs"
 
 const contact = () => {
     return (
-        <section id="contact" className="section_title_right">
+        <section id="contact" className="section_title_left">
             <h2>Contactez moi :</h2>
             <form action="">
                 <input className="text_form" type="text" id="name" placeholder="Votre nom"/>
