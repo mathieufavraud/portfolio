@@ -1,0 +1,32 @@
+div .menu button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vh;
+  margin: 1vh;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 2vh;
+}
+.header div.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1vh;
+  border: 2px solid #2f4550;
+  border-radius: 30px;
+  padding: 1vh;
+}
+.header div.links div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header div.links a {
+  color: #b8dbd9;
+  text-decoration: underline;
+}
+.header div.hidden {
+  display: none;
+}/*# sourceMappingURL=menu.css.map */
