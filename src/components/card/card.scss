@@ -2,8 +2,9 @@
 
 .card {
     //position: absolute;
-    width: 30%;
-    height: 65vh;
+    width: 33vw;
+    //min-width: 30%;
+    height: 40vh;
     border-radius: 30px;
     border: 1px solid $background_paynes-gray ;
     perspective: 500px;

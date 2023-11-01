@@ -8,7 +8,8 @@
 
 .buttons {
     display: flex;
-    gap: 6vh;
+    flex-wrap: wrap;
+    gap: 5vw;
     button {
         padding: 2vh;
         border-radius: 30px;
@@ -32,6 +33,7 @@ p {
 .cards {
     margin-top: 6vh;
     gap: 6vh;
+    padding: 20px; 
     display: flex;
     flex-wrap: wrap;
 }
