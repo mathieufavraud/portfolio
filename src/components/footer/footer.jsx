@@ -24,3 +24,5 @@ const Footer = () => {
 }
 
 export default Footer
+
+//affichage du telephone et mail dans une image ou un script
