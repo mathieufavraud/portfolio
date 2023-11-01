@@ -13,10 +13,15 @@
             width: 100%;
             font-size: $p_text;
             border-radius: 30px;
-            &::placeholder {
+            &::-webkit-input-placeholder {
                 opacity: 0.8;
                 color: $background_charcoal;
-                margin-left: 10px;
+                padding: 5px;
+            }
+            &::-moz-placeholder {
+                opacity: 0.8;
+                color: $background_charcoal;
+                padding: 5px;
             }
         }
         input {

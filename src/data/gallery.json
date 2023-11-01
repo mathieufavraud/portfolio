@@ -5,7 +5,7 @@
             "id": "1",
             "title": "Booki",
             "link": "https://mathieufavraud.github.io/booki/",
-            "thumbnail": "../../../public/booki.jpg",
+            "thumbnail": "./booki.jpg",
             "description":"Site de l'agence de voyage Booki. Projet d'introduction aux bases de HTML et CSS et au responsive design",
             "tags": ["Frontend","HTML&CSS"]
         },
@@ -13,7 +13,7 @@
             "id": "2",
             "title": "Sophie Bluel",
             "link": "https://mathieufavraud.github.io/sophie_bluel/",
-            "thumbnail": "../../../public/sophie_bluel.jpg",
+            "thumbnail": "./sophie_bluel.jpg",
             "description":"Site de Sophie Bluel, architecte d'interieur. Introduction a la création de contenu dynamique avec du javascript",
             "tags": ["Frontend","HTML&CSS","Javascript"]
         },
@@ -21,7 +21,7 @@
             "id": "3",
             "title": "Nina Carducci",
             "link": "https://mathieufavraud.github.io/nina_carducci/",
-            "thumbnail": "../../../public/nina_carducci.jpg",
+            "thumbnail": "./nina_carducci.jpg",
             "description":"Site de la photographe Nina Carducci. Debug et optimisation du code d'un projet deja existant.",
             "tags": ["Frontend","HTML&CSS","Debug", "Javascript"]
         },
@@ -29,7 +29,7 @@
             "id": "4",
             "title": "Kasa",
             "link": "https://mathieufavraud.github.io/kasa/",
-            "thumbnail": "../../../public/kasa.jpg",
+            "thumbnail": "./kasa.jpg",
             "description":"Site de location immobilière Kasa. Réalisation d'une application web en utilisant React",
             "tags": ["Frontend","Javascript","HTML&CSS","React"]
         },
@@ -37,7 +37,7 @@
             "id": "5",
             "title": "Mon vieux Grimoire",
             "link": "lien github qui marche pas",
-            "thumbnail": "../../../public/test.jpg",
+            "thumbnail": "./test.jpg",
             "description":"Mon vieux Grimoire, site de notation de livres. Création de la partie backend d'un projet React existant",
             "tags": ["Backend","Javascript","NodeJS"]
         }
