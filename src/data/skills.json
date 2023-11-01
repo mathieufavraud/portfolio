@@ -2,51 +2,51 @@
     "frontend":[
         {
             "id": "1",
-            "link": "/html5.svg",
+            "link": "./html5.svg",
             "title": "HTML5"
         },
         {
             "id": "2",
-            "link": "/css3.svg",
+            "link": "./css3.svg",
             "title": "CSS3"
         },
         {
             "id": "3",
-            "link": "/javascript.svg",
+            "link": "./javascript.svg",
             "title": "Javascript"
         },
         {
             "id": "4",
-            "link": "/reactjs.svg",
+            "link": "./reactjs.svg",
             "title": "React"
         }
     ],
     "backend":[
         {
             "id": "1",
-            "link": "/nodejs.svg",
+            "link": "./nodejs.svg",
             "title": "Nodejs"
         },
         {
             "id": "2",
-            "link": "/mongodb.svg",
+            "link": "./mongodb.svg",
             "title": "MongoDB"
         },
         {
             "id": "3",
-            "link": "/expressjs.svg",
+            "link": "./expressjs.svg",
             "title": "ExpressJS"
         }
     ],
     "tools":[
         {
             "id": "1",
-            "link": "/visualstudio.svg",
+            "link": "./visualstudio.svg",
             "title": "Visual Studio"
         },
         {
             "id": "2",
-            "link": "/sass.svg",
+            "link": "./sass.svg",
             "title": "Sass"
         },
         {
@@ -56,12 +56,12 @@
         },
         {
             "id": "4",
-            "link": "/github.svg",
+            "link": "./github.svg",
             "title": "Github"
         },
         {
             "id": "5",
-            "link": "/git.svg",
+            "link": "./git.svg",
             "title": "Git"
         }
     ]
