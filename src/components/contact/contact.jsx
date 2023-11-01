@@ -39,3 +39,6 @@ const contact = () => {
 export default contact;
 
 //service mail ne fonctionne que partiellement
+//ajout alert ?
+//form se reset
+//retour sur l'envoi de mail en dessous du bouton ?
