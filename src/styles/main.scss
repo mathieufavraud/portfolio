@@ -39,7 +39,8 @@ body{
     }
     background-image: url("../assets/cool-background.jpg");
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .background {
