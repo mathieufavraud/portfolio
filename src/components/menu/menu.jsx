@@ -18,12 +18,14 @@ const menu = () => {
                     <button onClick={() => setToggle(true)}><AiOutlineClose /></button>
                 </div>
                 <a href="#intro">Introduction</a>
-                <a href="#about">A propos</a>
-                <a href="#skills">Compétences</a>
-                <a href="#gallery">Galerie de projets</a>
-                <a href="#contact">Contact</a>
+                <a href="#about">A propos de moi</a>
+                <a href="#skills">Mes compétences & outils</a>
+                <a href="#gallery">Mes travaux</a>
+                <a href="#contact">Contactez moi</a>
             </div>
         </div>
     );
 }
 export default menu;
+
+//affichage decalé par le header

@@ -9,7 +9,9 @@ const Header = () => {
         <img src="" alt="logo perso" />
         <div>
             <h1>Portfolio de développeur web</h1>
-            <Menu></Menu>
+            <div className="menu-container">
+                <Menu></Menu>
+            </div>
         </div>
     </div>
     );

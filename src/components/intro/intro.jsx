@@ -7,7 +7,7 @@ const intro = () => {
         <section id="intro" className="section_title_left">
             <h2>Mathieu Favraud </h2>
             <h3>Développeur Fullstack</h3>
-            <p>Autodidacte et débutant, je suis passionné par l&apos;informatique, la technologie en général. et par la création d&apos;application web innovantes.</p>
+            <p>Autodidacte et nouvellement diplomé, je suis passionné par l&apos;informatique, la technologie en général, et par la création d&apos;applications web innovantes.</p>
             <div>
                 <a href="#contact"><AiOutlineMail /> Contactez moi</a>
                 <a href="https://github.com/mathieufavraud"><BsGithub /> Mon profil Github</a>

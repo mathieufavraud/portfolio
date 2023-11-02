@@ -5,7 +5,7 @@ import data from "../../data/skills.json"
 const skills = () => {
     return (
         <section id="skills" className="section_title_left">
-            <h2>Détail des compétences et outils</h2>
+            <h2>Mes compétences & outils</h2>
             <div className="container">
                 <h3>Compétences en développement web</h3>
                 <div className="skills">

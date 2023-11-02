@@ -27,8 +27,11 @@ $h4_title: 2.2vh;
 $p_text: 1.8vh;
 $a_text: 2vh;
 
+$offset: 10vh;
+
 @mixin margin {
   margin-top: 10vh;
+  scroll-margin-top: $offset;
 }
 
 //refaire l'ombre ?

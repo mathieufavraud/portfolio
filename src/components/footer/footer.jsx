@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <section className="contact-info">
             <h4>Contact :</h4>
-            <a href="tel:+33600000000"><BsTelephoneFill /> Tel : 06.52.50.06.77</a>
+            <a href="tel:+33600000000"><BsTelephoneFill /> Tel : +(33)6.52.50.06.77</a>
             <a href="mailto:mathieu.favraud@gmail.com"><AiFillMail /> mathieu.favraud@gmail.com</a>
             <a href="https://www.linkedin.com/in/mathieu-favraud-20244a127/"><BsLinkedin /> Mon Linkedin</a>
         </section>

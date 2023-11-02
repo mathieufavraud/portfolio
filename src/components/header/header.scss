@@ -1,9 +1,11 @@
+@import "../../styles/variables.scss";
+
 .header {
     position: sticky;
     top: 0;
     z-index: 10;
     padding: 1vh;
-    //height: 10vh;
+    height: $offset;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +20,11 @@
         gap: 3vw;
         h1 {
             margin: 0;
+        }
+        .menu-container {
+            //position: absolute;
+            width: 10wv;
+            height: 100%;
         }
     }
 }
