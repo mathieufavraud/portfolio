@@ -20,12 +20,10 @@ const menu = () => {
                 <a href="#intro">Introduction</a>
                 <a href="#about">A propos</a>
                 <a href="#skills">Compétences</a>
-                <a href="#gallery">Gallerie de projets</a>
+                <a href="#gallery">Galerie de projets</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
     );
 }
 export default menu;
-
-//<h3>Menu</h3> dans le bouton ?

@@ -1,10 +1,11 @@
 import "./contact.scss"
 import emailjs from "@emailjs/browser"
-import { useRef } from "react";
-import { BsFillSendFill } from "react-icons/bs"
+import { useRef, useState } from "react";
+import { BsFillSendFill, BsFillSendCheckFill } from "react-icons/bs"
 
 const contact = () => {
     const form = useRef()
+    const [sent, setSent] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault(); 
@@ -13,32 +14,51 @@ const contact = () => {
         emailjs.sendForm("service_324vnbr", "template_e8rku3y", form.current, "I5XgpIfgH1u71e0GV")
           .then((result) => {
               console.log("email success", result)
-              alert("ça marche")
+              setSent(true)
           }, (error) => {
               console.error("email failed", error)
-              alert("ça marche pas")
+              alert("l'envoi un mail à échoué")
           });
       };
-     
-
-
 
     return (
         <section id="contact" className="section_title_left">
-            <h2>Contactez moi :</h2>
-            <form ref={form} onSubmit={sendEmail}>
-                <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
-                <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
-                <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?"></textarea>
-                <button><input type="submit" value="Envoyer"/><BsFillSendFill/></button>
-            </form>
+            {sent ?
+            <div className="message_sent">
+                <h2>Message envoyé</h2>
+                <BsFillSendCheckFill size={40}/>
+            </div>
+            :
+            <div>
+                <h2>Contactez moi :</h2>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
+                    <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
+                    <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
+                    <button><div><input type="submit" value="Envoyer"/><BsFillSendFill size={20}/></div></button>
+                </form>
+            </div>
+            }
         </section>
     );
 };
 
 export default contact;
 
-//service mail ne fonctionne que partiellement
-//ajout alert ?
-//form se reset
-//retour sur l'envoi de mail en dessous du bouton ?
+//taille bouton
+//classe invalid qui ne s'applique que a l'envoi ?
+//formulaire disparait et est remplacé par envoyé avec une animation
+
+/*
+    return (
+        <section id="contact" className="section_title_left">
+            <h2>Contactez moi :</h2>
+            <form ref={form} onSubmit={sendEmail}>
+                <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
+                <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
+                <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
+                <button><div><input type="submit" value="Envoyer"/><BsFillSendFill/></div></button>
+            </form>
+        </section>
+    );
+*/

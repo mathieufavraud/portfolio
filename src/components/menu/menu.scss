@@ -1,6 +1,15 @@
 @import "../../styles/variables.scss";
 
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 div {
     .menu {
         button {
@@ -23,6 +32,7 @@ div {
         border: 2px solid $background_charcoal;
         border-radius: 30px;
         padding: 1vh;
+        animation: fadeIn 0.5s;
         div {
             width: 100%;
             display: flex;
