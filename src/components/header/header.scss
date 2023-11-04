@@ -9,7 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: 25vh;
+    height: 25vh;
+    transition: height 0.5s ease;
+    a {
+        color: $text_ghost-white;
+    }
+    a:hover {
+        text-decoration: none;
+    }
     img {
         margin: 1vw;
     }
@@ -29,3 +36,12 @@
     }
 }
 
+.scrolled {
+    height: 10vh;
+    transition: height 0.5s ease;
+    div {
+        h1 {
+            font-size: 40px;
+        }
+    }
+}

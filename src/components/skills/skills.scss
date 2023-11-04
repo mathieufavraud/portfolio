@@ -42,13 +42,9 @@
         align-items: center;
         background-color: $background_paynes-gray;
         border-radius: 50%;
-        transition: all .2s ease-in-out;
         img {
             min-width: 10vw;
             min-height: 10vw;
-        }
-        :hover {
-            transform: scale(1.2);
         }
     }
 }
@@ -65,7 +61,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        gap: 5vw;
         section {
+          width: 30%;
+          min-width: 500px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -82,19 +81,20 @@
 }
 
 .frontend-container {
-    @include on-circle($item-count: 4, $circle-size: 40vw, $item-size: 20vw); 
+    @include on-circle($item-count: 4, $circle-size: 30vw, $item-size: 15vw); 
     @include circle-content;
 }
 
 .backend-container {
-    @include on-circle($item-count: 3, $circle-size: 40vw, $item-size: 20vw); 
+    @include on-circle($item-count: 3, $circle-size: 30vw, $item-size: 15vw); 
     @include circle-content;
 }
 
 .tools-container {
-    @include on-circle($item-count: 5, $circle-size: 45vw, $item-size: 22vw); 
+    @include on-circle($item-count: 5, $circle-size: 35vw, $item-size: 18vw); 
     @include circle-content;
   }
 
 //hover sur la <figure> ??
 //taille des images et des elements a revoir (trop grand)
+//display flex sur .skills

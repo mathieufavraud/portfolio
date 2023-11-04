@@ -2,7 +2,13 @@ figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform 0.3s;
     img {
         max-width: 100px;
     }
 }
+figure:hover {
+    transform: scale(1.2);
+}
+
+//animation ne fonctionne pas ?

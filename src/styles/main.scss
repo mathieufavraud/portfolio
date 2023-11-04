@@ -19,25 +19,25 @@ body{
     font-weight: 500;
     a {
         text-decoration: none;
-        font-size: $a_text;
+        font-size: clamp(6px, $a_text, 40px);
     }
     a:hover {
         text-decoration: underline;
     }
     p {
-        font-size: $p_text;
+        font-size: clamp(5px, $p_text, 35px);
     }
     h1 {
-        font-size: $h1_title;
+        font-size: clamp(40px, $h1_title, 100px);
     }
     h2 {
-        font-size: $h2_title;
+        font-size: clamp(35px, $h2_title, 70px);
     }
     h3 {
-        font-size: $h3_title;
+        font-size: clamp(30px, $h3_title, 60px);
     }
     h4 {
-        font-size: $h4_title;
+        font-size: clamp(25px, $h4_title, 50px);
         font-style: italic;
         margin: 1.5vh;
     }
@@ -68,6 +68,7 @@ body:before {
     -o-background-size: cover;
     background-size: cover;
   }
+
 
 .background {
     position: absolute;
@@ -107,4 +108,5 @@ body:before {
     color: $links_light-blue;
 }
 
-//rajouter une taille de texte maximum
+//rajouter une taille de texte maximum surtout pour le header
+//max(20vw, 400px); 

@@ -10,7 +10,7 @@ const intro = () => {
             <p>Autodidacte et nouvellement diplomé, je suis passionné par l&apos;informatique, la technologie en général, et par la création d&apos;applications web innovantes.</p>
             <div>
                 <a href="#contact"><AiOutlineMail /> Contactez moi</a>
-                <a href="https://github.com/mathieufavraud"><BsGithub /> Mon profil Github</a>
+                <a href="https://github.com/mathieufavraud" target="_blank" rel="noreferrer"><BsGithub /> Mon profil Github</a>
             </div>
         </section>
     );

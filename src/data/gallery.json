@@ -6,7 +6,7 @@
             "title": "Booki",
             "link": "https://mathieufavraud.github.io/booki/",
             "thumbnail": "./booki.jpg",
-            "description":"Site de l'agence de voyage Booki. Projet d'introduction aux bases de HTML et CSS et au responsive design",
+            "description":"Site de l'agence de voyage Booki. Projet d'introduction aux bases du HTML et CSS et au responsive design",
             "tags": ["Frontend","HTML&CSS"]
         },
         {
@@ -14,7 +14,7 @@
             "title": "Sophie Bluel",
             "link": "https://mathieufavraud.github.io/sophie_bluel/",
             "thumbnail": "./sophie_bluel.jpg",
-            "description":"Site de Sophie Bluel, architecte d'interieur. Introduction a la création de contenu dynamique avec du javascript",
+            "description":"Site de Sophie Bluel, architecte d'interieur. Introduction à la création de contenu dynamique avec du javascript",
             "tags": ["Frontend","HTML&CSS","Javascript"]
         },
         {
@@ -22,7 +22,7 @@
             "title": "Nina Carducci",
             "link": "https://mathieufavraud.github.io/nina_carducci/",
             "thumbnail": "./nina_carducci.jpg",
-            "description":"Site de la photographe Nina Carducci. Debug et optimisation du code d'un projet deja existant.",
+            "description":"Site de la photographe Nina Carducci. Debug et optimisation du code d'un projet déjà existant.",
             "tags": ["Frontend","HTML&CSS","Debug", "Javascript"]
         },
         {

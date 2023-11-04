@@ -47,18 +47,16 @@ export default contact;
 
 //taille bouton
 //classe invalid qui ne s'applique que a l'envoi ?
-//formulaire disparait et est remplacé par envoyé avec une animation
 
 /*
-    return (
-        <section id="contact" className="section_title_left">
-            <h2>Contactez moi :</h2>
-            <form ref={form} onSubmit={sendEmail}>
-                <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
-                <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
-                <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
-                <button><div><input type="submit" value="Envoyer"/><BsFillSendFill/></div></button>
-            </form>
-        </section>
-    );
+    <div>
+                <h2>Contactez moi :</h2>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
+                    <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
+                    <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
+                    <button><div><input type="submit" value="Envoyer"/><BsFillSendFill size={20}/></div></button>
+                </form>
+    </div>
+
 */
