@@ -9,6 +9,7 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 5vw;
     padding: 10px;
     button {
@@ -37,4 +38,5 @@ p {
     padding: 20px; 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

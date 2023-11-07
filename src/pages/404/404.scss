@@ -1,0 +1,6 @@
+@import "../../styles/variables.scss";
+
+#error {
+    padding: 2vh;
+    @include margin;
+}

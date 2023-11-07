@@ -18,5 +18,3 @@ const intro = () => {
 
 export default intro;
 
-//remplir le profil github
-//<img src={image} alt="logo github" />

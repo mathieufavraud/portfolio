@@ -2,12 +2,16 @@
 
 .card {
     //position: absolute;
-    width: 33vw;
+    width: 45vw;
     //min-width: 30%;
-    height: 40vh;
+    height: 80vh;
     border-radius: 30px;
     border: 1px solid $background_paynes-gray ;
-    perspective: 100px;
+    perspective: 1000px;
+    @media (max-width: 1000px)
+    {
+        width: 80vw;
+    }
     .card-content {
         position: absolute;
         width: 100%;
@@ -37,7 +41,7 @@
                 //background-color: $background_paynes-gray;
                 position: relative;
                 bottom: 0;
-                font-size: 5vw;
+                font-size: 5vh;
             }
         }
         .back {

@@ -1,14 +1,12 @@
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/footer";
+//import Header from "../../components/header/header";
+//import Footer from "../../components/footer/footer";
 import "./404.scss"
 
 const error = () => {
     return (
-        <div>
-            <Header></Header>
+        <section id="error" className="section_title_left">
             <h1>Erreur 404</h1>
-            <Footer></Footer>
-        </div>
+        </section>
     );
 };
 

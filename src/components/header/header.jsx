@@ -1,9 +1,12 @@
 import Menu from "../menu/menu"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import "./header.scss"
 import { useEffect, useState } from "react"
 
 const Header = () => {
+    const location = useLocation()
+    const display=location.pathname === "/portfolio"
+
     useEffect (() => {
         window.addEventListener("scroll", handleScroll, {passive: true})
         return () => {
@@ -19,13 +22,14 @@ const Header = () => {
             setScroll(false)
           }
     }
+    console.log(display)
     return(
     <div className={`header main-title ${scrolled && "scrolled"}`}>
-        <Link><img src="" alt="logo perso" /></Link>
+        <Link to="portfolio"><img src="" alt="logo perso" /></Link>
         <div>
             <h1>Portfolio de développeur web</h1>
             <div className="menu-container">
-                <Menu></Menu>
+                {display && <Menu></Menu>}
             </div>
         </div>
     </div>
@@ -33,5 +37,3 @@ const Header = () => {
 }
 
 export default Header
-
-//affichage conditionnel du menu ?
