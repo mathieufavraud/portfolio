@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 
 const Header = () => {
     const location = useLocation()
-    const display=location.pathname === "/portfolio"
+    const display=location.pathname === "/portfolio" || "/portfolio/"
 
     useEffect (() => {
         window.addEventListener("scroll", handleScroll, {passive: true})
