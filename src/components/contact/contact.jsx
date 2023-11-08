@@ -35,7 +35,7 @@ const contact = () => {
                     <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
                     <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
                     <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
-                    <button><div><input type="submit" value="Envoyer"/><BsFillSendFill size={20}/></div></button>
+                    <button type="submit">Envoyer <BsFillSendFill size={20}/></button>
                 </form>
             </div>
             }
@@ -45,18 +45,4 @@ const contact = () => {
 
 export default contact;
 
-//taille bouton
 //classe invalid qui ne s'applique que a l'envoi ?
-
-/*
-    <div>
-                <h2>Contactez moi :</h2>
-                <form ref={form} onSubmit={sendEmail}>
-                    <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom"/>
-                    <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" required/>
-                    <textarea className="text_form" id="message" name="message" placeholder="Que voulez vous dire ?" required></textarea>
-                    <button><div><input type="submit" value="Envoyer"/><BsFillSendFill size={20}/></div></button>
-                </form>
-    </div>
-
-*/
