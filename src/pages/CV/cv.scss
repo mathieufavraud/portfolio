@@ -2,6 +2,7 @@
 
 #cv {
     @include margin;
+    padding: 50px;
     iframe {
         width: 100%;
         height: 150vh;

@@ -33,7 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Header/>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Home />} />
+        <Route path="/portfolio/" element={<Home />} />
         <Route path="/cv" element={<CV />} />
         <Route path="/error" element={<Error />} />
         <Route path="/404" element={<Error />} />

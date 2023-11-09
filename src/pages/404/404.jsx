@@ -1,5 +1,3 @@
-//import Header from "../../components/header/header";
-//import Footer from "../../components/footer/footer";
 import "./404.scss"
 
 const error = () => {

@@ -1,6 +1,5 @@
-//import Header from "../../components/header/header";
-//import Footer from "../../components/footer/footer";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/CV.pdf"
+
 import "./cv.scss"
 
 const cv = () => {
@@ -12,3 +11,11 @@ const cv = () => {
 };
 
 export default cv;
+
+/*
+return (
+        <section id="cv" className="section_title_left">
+            <iframe src={CV}></iframe>
+        </section>
+    );
+*/

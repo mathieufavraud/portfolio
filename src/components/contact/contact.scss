@@ -56,6 +56,10 @@ $shake-intensity: 2%;
             }
             &:not(:focus):invalid {
                 //color: $text_ghost-white;
+                //background-color: #ff9999;
+                //animation: headshake 175ms cubic-bezier(.4,.1,.6,.9);
+            }
+            .invalid {
                 background-color: #ff9999;
                 animation: headshake 175ms cubic-bezier(.4,.1,.6,.9);
             }

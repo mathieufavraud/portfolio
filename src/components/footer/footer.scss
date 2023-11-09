@@ -25,6 +25,14 @@
     .contact-info {
         display: flex;
         flex-direction: column;
+        .contact-item {
+            color: $links_light-blue;
+            margin: 0;
+            font-size: $a_text;
+        }
+        .contact-item:hover {
+            text-decoration: underline;
+        }
         a {
             color: $links_light-blue;
         }

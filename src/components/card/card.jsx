@@ -1,4 +1,5 @@
 import { BsArrowCounterclockwise } from "react-icons/bs"
+import { HiCursorClick } from "react-icons/hi"
 import { useState } from "react";
 import "./card.scss"
 
@@ -18,7 +19,7 @@ const card = (props) => {
                     <div className="tags">
                         <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
                     </div>
-                    <a href={props.link}>{props.title}</a>
+                    <a href={props.link} target="_blank" rel="noreferrer"><button>{props.title} <HiCursorClick /></button></a>
                 </div>
             </div>
             }

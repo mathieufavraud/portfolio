@@ -17,11 +17,11 @@ const menu = () => {
                     <h3>Menu</h3>
                     <button onClick={() => setToggle(true)}><AiOutlineClose /></button>
                 </div>
-                <a href="#intro">Introduction</a>
-                <a href="#about">A propos de moi</a>
-                <a href="#skills">Mes compétences & outils</a>
-                <a href="#gallery">Mes travaux</a>
-                <a href="#contact">Contactez moi</a>
+                <a href="#intro" onClick={() => setToggle(true)}>Introduction</a>
+                <a href="#about" onClick={() => setToggle(true)}>A propos de moi</a>
+                <a href="#skills" onClick={() => setToggle(true)}>Mes compétences & outils</a>
+                <a href="#gallery" onClick={() => setToggle(true)}>Mes travaux</a>
+                <a href="#contact" onClick={() => setToggle(true)}>Contactez moi</a>
             </div>
         </div>
     );

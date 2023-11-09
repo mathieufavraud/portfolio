@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 
 const Header = () => {
     const location = useLocation()
-    const display=location.pathname === "/portfolio" || "/portfolio/"
+    const display=location.pathname === "/portfolio/"
 
     useEffect (() => {
         window.addEventListener("scroll", handleScroll, {passive: true})
@@ -22,10 +22,9 @@ const Header = () => {
             setScroll(false)
           }
     }
-    console.log(display)
     return(
     <div className={`header main-title ${scrolled && "scrolled"}`}>
-        <Link to="portfolio"><img src="" alt="logo perso" /></Link>
+        <Link to="portfolio/"><img src="" alt="logo perso" /></Link>
         <div>
             <h1>Portfolio de développeur web</h1>
             <div className="menu-container">
@@ -37,3 +36,5 @@ const Header = () => {
 }
 
 export default Header
+
+//changer condition menu fausse

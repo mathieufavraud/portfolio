@@ -45,12 +45,19 @@ div {
             text-decoration: underline;
         };
     }
-    
     .header &.hidden {
         display: none;
     }
+    .links {
+        position: absolute;
+        right: 0;
+        //height: 30vh;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+    }
 }
 
-//ajouter une animation de defilement
-//menu se reduit au scroll ?
 //menu sort du cadre
+//repositioner .links et garder une taille pour decaller  le titre
