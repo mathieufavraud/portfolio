@@ -1,5 +1,14 @@
 @import "../../styles/variables.scss";
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
 .card {
     width: 45vw;
     height: 80vh;
@@ -20,7 +29,8 @@
         cursor: pointer;
         @include shadow;
         &:hover {
-            //rajouter une animation
+            transform: scale(1.1) rotateY(10deg);
+            //box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
         }
         .front {
             width: 100%;
@@ -33,16 +43,15 @@
             justify-content: flex-end;
             align-items: center;
             border-radius: 30px;
-            transition: transform 0.5s; 
-            opacity: 1;
+            transition: transform 0.5s;
+            animation: fadeIn 1s ease-in-out;
             h3 {
                 display: flex;
                 align-items: center;
                 gap: 2vw;
-                padding: 1vw;
                 position: relative;
-                bottom: 0;
                 font-size: 5vh;
+                padding: 10px;
             }
         }
         .back {
@@ -56,10 +65,20 @@
             border-radius: 30px;
             transition: transform 0.5s;
             transform: rotateY( 180deg );
-            opacity: 1;
+            animation: fadeIn 1s ease-in-out;
             .back-content {
                 padding: 30px;
                 transform: rotateY( 180deg );
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                .tags {
+                    li {
+                        font-size: $p_text;
+                    }
+                }
                 a {
                     color: $links_light-blue;
                     text-decoration: underline;

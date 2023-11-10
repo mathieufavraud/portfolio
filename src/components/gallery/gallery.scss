@@ -39,4 +39,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cards.hidden {
+    opacity: 0;
 }

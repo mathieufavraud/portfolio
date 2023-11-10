@@ -25,6 +25,7 @@
     .contact-info {
         display: flex;
         flex-direction: column;
+        padding-right: 10px;
         .contact-item {
             color: $links_light-blue;
             margin: 0;

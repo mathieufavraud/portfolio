@@ -3,7 +3,7 @@ import { HiCursorClick } from "react-icons/hi"
 import { useState } from "react";
 import "./card.scss"
 
-const card = (props) => {
+const Card = (props) => {
     const css = {backgroundImage: `linear-gradient(180deg, rgba(255,255,255,0.1),rgba(0,0,0,0.7)), url(${props.thumbnail})`};
     const [rotation, Rotate] = useState(true);
     return (
@@ -15,11 +15,14 @@ const card = (props) => {
             </div> : 
             <div className="back" onClick={() => Rotate(!rotation)}>
                 <div className="back-content">
-                    <p>{props.description}</p>
-                    <div className="tags">
-                        <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
+                    <div>
+                        <p>{props.description}</p>
+                        <p>{props.details}</p>
+                        <div className="tags">
+                            <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
+                        </div>
                     </div>
-                    <a href={props.link} target="_blank" rel="noreferrer"><button>{props.title} <HiCursorClick /></button></a>
+                    <a href={props.link} target="_blank" rel="noreferrer"><button aria-label="lien du site">{props.title} <HiCursorClick /></button></a>
                 </div>
             </div>
             }
@@ -28,4 +31,4 @@ const card = (props) => {
     );
 };
 
-export default card;
+export default Card;
