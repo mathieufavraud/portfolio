@@ -16,10 +16,7 @@ const Gallery = () => {
     }, [filter]);
 
     const handleFilterChange = (newFilter) => {
-        // Hide the gallery before changing the filter
         setHidden(true);
-
-        // Set the new filter after a short delay
         setTimeout(() => {
             setFilter(newFilter);
         }, 300);
@@ -39,20 +36,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
-/*
-const Gallery = () => {
-    const [filter, setFilter] = useState("Tous");
-    return (
-        <section id="gallery" className="section_title_right">
-            <h1>Mes travaux</h1>
-            <div className="buttons">
-                {data.tags.map((item) => {return(<button key={item} className={item==filter ? "active" : "inactive" } onClick={() => setFilter(item)} aria-label={item}>{item}</button>)})}
-            </div>
-            <div className="cards">
-                {data.gallery.filter((item) => filter == "Tous" ? item : item.tags.includes(filter)).map((item) => {return (<Card key={item.id} title={item.title} link={item.link} description={item.description} details={item.details} thumbnail={item.thumbnail} tags={item.tags}/>)})}
-            </div>
-        </section>
-    );
-};
-*/
