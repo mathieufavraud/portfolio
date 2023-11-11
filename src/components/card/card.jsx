@@ -18,9 +18,6 @@ const Card = (props) => {
                     <div>
                         <p>{props.description}</p>
                         <p>{props.details}</p>
-                        <div className="tags">
-                            <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
-                        </div>
                     </div>
                     <a href={props.link} target="_blank" rel="noreferrer"><button aria-label="lien du site">{props.title} <HiCursorClick /></button></a>
                 </div>
@@ -32,3 +29,9 @@ const Card = (props) => {
 };
 
 export default Card;
+
+/*
+<div className="tags">
+    <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
+</div>
+*/

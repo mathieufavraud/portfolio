@@ -20,19 +20,28 @@ $text_ghost-white: #f4f4f9ff;
   color: $text_ghost-white;
 }
 
+$h1_title: 6vw;
+$h2_title: 4vw;
+$h3_title: 3vw;
+$h4_title: 2.2vw;
+$p_text: 1.8vw;
+$a_text: 2vw;
+
+$offset: 10vw;
+
+@mixin margin {
+  margin-top: $offset;
+  scroll-margin-top: $offset;
+}
+
+//refaire l'ombre ?
+//changer vh pour vw ?
+
+/*
 $h1_title: 6vh;
 $h2_title: 4vh;
 $h3_title: 3vh;
 $h4_title: 2.2vh;
 $p_text: 1.8vh;
 $a_text: 2vh;
-
-$offset: 10vh;
-
-@mixin margin {
-  margin-top: 10vh;
-  scroll-margin-top: $offset;
-}
-
-//refaire l'ombre ?
-//changer vh pour vw ?
+*/

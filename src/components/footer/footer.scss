@@ -14,6 +14,7 @@
         }
         img {
             padding: 3vh;
+            width: 6vw;
         }
         a {
             color: $text_ghost-white;
@@ -29,7 +30,8 @@
         .contact-item {
             color: $links_light-blue;
             margin: 0;
-            font-size: $a_text;
+            font-size: clamp(18px, $a_text, 40px);
+            padding: 5px,
         }
         .contact-item:hover {
             text-decoration: underline;

@@ -4,6 +4,9 @@
     @include margin;
     margin-left: 2vw;
     padding: 1vw;
+    h1 {
+        margin: 2vw;
+    }
 }
 
 .buttons {
@@ -15,7 +18,7 @@
     button {
         padding: 2vh;
         border-radius: 30px;
-        font-size: $a_text;
+        font-size: clamp(16px, $a_text, 35px);
         cursor: pointer;
         border: 1px solid $background_paynes-gray;
     }

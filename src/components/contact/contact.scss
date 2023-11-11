@@ -52,7 +52,8 @@ $shake-intensity: 2%;
         input {
             height: 3vh;
             &:placeholder-shown {
-                @include placeholder
+                @include placeholder;
+                font-size: clamp(18px, $p_text, 40px);
             }
             &:not(:focus):invalid {
                 //color: $text_ghost-white;
@@ -63,7 +64,8 @@ $shake-intensity: 2%;
         textarea {
             height: 9vh;
             &:placeholder-shown {
-                @include placeholder
+                @include placeholder;
+                font-size: clamp(18px, $p_text, 40px);
             }
         }
         button {
@@ -77,7 +79,7 @@ $shake-intensity: 2%;
             justify-content: center;
             align-items: center;
             gap: 10px;
-            font-size: $a_text;
+            font-size: clamp(18px, $p_text, 40px);
             font-weight: 800;
             font-family: 'Poppins';
             font-style: normal;

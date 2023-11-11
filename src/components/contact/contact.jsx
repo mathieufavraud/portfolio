@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             :
             <div>
-                <h2>Contactez moi :</h2>
+                <h2>Contactez moi</h2>
                 <form ref={form} onSubmit={sendEmail}>
                     <input className="text_form" type="text" id="name" name="user_name" placeholder="Votre nom" aria-label="Nom"/>
                     <input className="text_form" type="email" id="mail" name="user_email" placeholder="Votre email" aria-label="Email" required/>

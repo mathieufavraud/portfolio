@@ -1,14 +1,14 @@
 import "./footer.scss"
+import Logo from "../../assets/logo.png"
 import { FaRegCopyright } from "react-icons/fa"
 import { BsTelephoneFill, BsLinkedin  } from "react-icons/bs"
 import { AiFillMail } from "react-icons/ai"
-import { Link } from "react-router-dom"
 import { Email, Phone } from "hidden-from-bots-react";
 
 const Footer = () => {
     return(<div className="footer">
         <div>
-            <Link><img src="" alt="logo perso" /></Link>
+            <img src={Logo} alt="logo perso" />
             <section className="legal">
                 <h4>Mentions légales</h4>
                 <p>Ce site a été entièrement realisé par moi même avec React</p>

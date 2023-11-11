@@ -1,6 +1,7 @@
 import Menu from "../menu/menu"
-import { Link, useLocation } from "react-router-dom"
 import "./header.scss"
+import Logo from "../../assets/logo.png"
+import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 const Header = () => {
@@ -24,7 +25,7 @@ const Header = () => {
     }
     return(
     <div className={`header main-title ${scrolled && "scrolled"}`}>
-        <Link to="portfolio/"><img src="" alt="logo perso" /></Link>
+        <Link to="portfolio/"><img src={Logo} alt="logo perso" /></Link>
         <div>
             <h1>Portfolio de développeur web</h1>
             <div className="menu-container">

@@ -19,13 +19,13 @@ body{
     font-weight: 500;
     a {
         text-decoration: none;
-        font-size: clamp(6px, $a_text, 40px);
+        font-size: clamp(18px, $a_text, 40px);
     }
     a:hover {
         text-decoration: underline;
     }
     p {
-        font-size: clamp(5px, $p_text, 35px);
+        font-size: clamp(16px, $p_text, 35px);
     }
     h1 {
         font-size: clamp(40px, $h1_title, 100px);
