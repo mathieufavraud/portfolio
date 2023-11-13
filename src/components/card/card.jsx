@@ -29,9 +29,3 @@ const Card = (props) => {
 };
 
 export default Card;
-
-/*
-<div className="tags">
-    <ul>{props.tags.map((item) => {return(<li key={item}>{item}</li>)})}</ul>
-</div>
-*/

@@ -11,11 +11,3 @@ const cv = () => {
 };
 
 export default cv;
-
-/*
-return (
-        <section id="cv" className="section_title_left">
-            <iframe src={CV}></iframe>
-        </section>
-    );
-*/

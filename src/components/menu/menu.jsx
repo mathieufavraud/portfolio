@@ -27,5 +27,3 @@ const menu = () => {
     );
 }
 export default menu;
-
-//affichage decalé par le header

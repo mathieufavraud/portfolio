@@ -25,10 +25,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-//affichage du telephone et mail dans une image ou un script
-
-/*
-a href="tel:+33600000000"><BsTelephoneFill /> Tel : +(33)6.52.50.06.77</a>
-<a href="mailto:mathieu.favraud@gmail.com"><AiFillMail /> mathieu.favraud@gmail.com</a>
-*/

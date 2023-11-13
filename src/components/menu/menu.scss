@@ -51,13 +51,10 @@ div {
     .links {
         position: absolute;
         right: 0;
-        //height: 30vh;
+        height: 30vh;
     }
     .menu {
         position: absolute;
-        right: 0;
+        right: 10px;
     }
 }
-
-//menu sort du cadre
-//repositioner .links et garder une taille pour decaller le titre

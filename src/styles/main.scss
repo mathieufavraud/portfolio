@@ -48,9 +48,6 @@ body{
             box-shadow: 5px 1px 2px $background_black;
         }   
     }
-    //background-image: url("../assets/cool-background.jpg");
-    //background-size: cover;
-    //background-attachment: fixed;
 }
 
 body:before {
@@ -107,6 +104,3 @@ body:before {
 .links {
     color: $links_light-blue;
 }
-
-//rajouter une taille de texte maximum surtout pour le header
-//max(20vw, 400px); 
