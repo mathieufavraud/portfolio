@@ -5,7 +5,7 @@
             "id": "1",
             "title": "Booki",
             "link": "https://mathieufavraud.github.io/booki/",
-            "thumbnail": "./booki.jpg",
+            "thumbnail": "./Booki.webp",
             "description":"Site de l'agence de voyage Booki. Projet d'introduction aux bases du HTML et CSS et au responsive design.",
             "details":"Le but de ce projet était la création d'un site internet basique utilisant uniquement HTML et CSS pour en apprendre les bases, le tout basé sur le suivi d'une maquette détaillée du site.",
             "tags": ["Frontend","HTML&CSS"]
@@ -14,7 +14,7 @@
             "id": "2",
             "title": "Sophie Bluel",
             "link": "https://mathieufavraud.github.io/sophie_bluel/",
-            "thumbnail": "./sophie_bluel.jpg",
+            "thumbnail": "./Sophie-Bluel.webp",
             "description":"Site de Sophie Bluel, architecte d'interieur. Introduction à la création de contenu dynamique avec du Javascript.",
             "details":"Ce projet consiste en un site internet existant auquelle doivent être rajouté des fonctions d'interactivité avec Javascritp, un système de login/mot de passe basique, l'affichage dynamique d'une gallerie d'images et l'affichage conditionnel d'éléments de la page.",
             "tags": ["Frontend","HTML&CSS","Javascript"]
@@ -23,7 +23,7 @@
             "id": "3",
             "title": "Nina Carducci",
             "link": "https://mathieufavraud.github.io/nina_carducci/",
-            "thumbnail": "./nina_carducci.jpg",
+            "thumbnail": "./Nina-Carducci.webp",
             "description":"Site de la photographe Nina Carducci. Debug et optimisation du code d'un projet déjà existant.",
             "details":"Le site Nina Carducci est fourni mais comporte de nombreux bugs dans on code Jquery, erreurs de syntaxe HTML et a des performances catastrophique notamment en raison de la lourdeur des images. Le but du projet sera d'optimiser et résoudre un maximum de ces problèmes afin d'améliorer le référencement du site.",
             "tags": ["Frontend","HTML&CSS","Debug", "Javascript"]
@@ -32,7 +32,7 @@
             "id": "4",
             "title": "Kasa",
             "link": "https://mathieufavraud.github.io/kasa/",
-            "thumbnail": "./kasa.jpg",
+            "thumbnail": "./Kasa-Location2.webp",
             "description":"Site de location immobilière Kasa. Réalisation d'une application web en utilisant React",
             "details":"Comme pour le projet Booki, ce projet est crée d'après une maquette mais est une application React, qui mèle HTML, CSS et Javascript pour créer un site internet complet et interactif. De plus des compétences avancés en CSS seront necessaire pour créer des animations. Sass sera préféré au CSS de base poru ce projet.",
             "tags": ["Frontend","Javascript","HTML&CSS","React"]
@@ -41,7 +41,7 @@
             "id": "5",
             "title": "Mon vieux Grimoire",
             "link": "lien github qui marche pas",
-            "thumbnail": "./test.jpg",
+            "thumbnail": "./Grimoire.webp",
             "description":"Mon vieux Grimoire, site de notation de livres. Création de la partie backend d'un projet React existant",
             "details":"Le site mon vieux Grimoire est une application React qui a besoin d'un backend afin d'être fonctionnel. Le projet consiste en la réalisation du backend utilisant NodeJS, en utilisant la documentation technique.",
             "tags": ["Backend","Javascript","NodeJS"]
